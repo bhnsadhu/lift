@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Blue & gold palette */
+  --color-navy-950: #0a1128;
+  --color-navy-900: #14213d;
+  --color-navy-800: #1e3a8a;
+  --color-navy-700: #1d4ed8;
+  --color-navy-600: #2563eb;
+  --color-navy-500: #3b82f6;
+  --color-navy-100: #dbeafe;
+  --color-navy-50: #eff6ff;
+
+  --color-gold-600: #d99e02;
+  --color-gold-500: #f5b301;
+  --color-gold-400: #fbc93d;
+  --color-gold-300: #fdda74;
+  --color-gold-100: #fef3c7;
+}
+
+body {
+  @apply bg-navy-50 text-navy-950 antialiased;
+}
